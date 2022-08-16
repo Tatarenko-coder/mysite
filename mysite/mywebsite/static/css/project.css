@@ -1,0 +1,89 @@
+.containeri{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px;
+}
+#gallery{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #9e00d3;
+    border-radius: 18px;
+}
+#gallery {
+    margin-bottom: auto;
+    margin-top: 0;
+}
+#gallery:after {
+   content: '';
+   display: block;
+   height: 0;
+   clear: both;
+}
+.photo {
+	float: left;
+    max-width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #9e00d3;
+    box-sizing: border-box;
+    border-radius: 18px;
+    }
+
+.photo:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-box-shadow: 4px 4px 10px rgb(255, 255, 255);
+    -moz-box-shadow: 4px 4px 10px rgb(255, 255, 255);
+    -o-box-shadow: 4px 4px 10px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(255, 255, 255);
+                    }
+.photo figcaption {
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+}
+
+
+.about{
+    text-align: center;
+    margin:0px auto;
+    padding:0 30px;
+}
+/*-------- selection - content - certificate -------------------------*/
+#certificate{
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+    ul.certificate li {
+        margin: 0 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        list-style: none;
+        }
+            ul.certificate li a img {
+                max-width: 250px;
+                -webkit-transition: -webkit-transition 0.2s ease-in-out;
+                -moz-transition: -moz-transition 0.2s ease-in-out;
+                transition: transition 0.2s ease-in-out;
+                }
+                    ul.certificate :hover img {
+                        -webkit-transform: scale(1.4);
+                        -moz-transform: scale(1.4);
+                        -o-transform: scale(1.4);
+                        transform: scale(1.4);
+                        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+                        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+                        -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+                        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+                    }
